@@ -1,0 +1,76 @@
+.alerts{
+    
+    margin-right: 10px;
+    /* width: 45%; */
+    height: 460px;
+    background-color:rgba(206, 204, 206, 0.199);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow-y: scroll;
+}
+
+.alerts-title{
+    /* margin-left: 16%; */
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    color:azure;
+    letter-spacing: 2px;
+
+  }
+  .alerts::-webkit-scrollbar {
+      width: 10px;
+      background-color:rgba(206, 204, 206, 0.199);
+      border-bottom-right-radius: 10px;
+    }
+    .alerts::-webkit-scrollbar-thumb {
+      background-color:rgba(206, 204, 206, 0.199);
+      border-bottom-right-radius: 10px;
+    }
+  
+  .alerts-line{
+    margin-right: 10px;
+    height: 10px;
+    /* width: 45%; */
+    background: linear-gradient(to  left,rgb(1, 214, 252), blue,rgb(255, 0, 242), pink);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .alertsName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 21px ;
+    margin-left: 15px;
+    cursor: pointer;
+    width: max-content;
+    /* background-color:aquamarine; */
+    -webkit-transition: .5s ease; 
+    -moz-transition: .5s ease; 
+    -o-transition: .5s ease;
+  }
+  .collum-container{
+    display: flex;
+  }
+  .collum-one{
+    width: 30%;
+    margin-left: 3%;
+    /* background-color:red; */
+  }
+  .alertsName:hover {
+    font-size: 27px;
+    letter-spacing: 4px;
+    transition: .2s; 
+    text-align: center; 
+    text-shadow:0 0 5px white,0 0 5px white,0 0 5px white,0 0 5px white;
+  }
+
+  .collum-two{
+    width: 30%;
+    margin-left: 3%;
+  }
+  .collum-three{
+    width: 30%;
+    margin-left: 3%;
+  }
