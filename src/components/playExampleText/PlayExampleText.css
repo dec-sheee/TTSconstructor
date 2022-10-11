@@ -1,0 +1,14 @@
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.play:hover{
+    background-color:#777777;
+}
+
+.play-icon{
+    /* margin-left: 3px;  */
+    /* margin-top: 4px; */
+}

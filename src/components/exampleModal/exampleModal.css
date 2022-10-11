@@ -1,0 +1,50 @@
+
+.example-modal-container{
+    position: relative;
+    margin-left: 45px;
+    /* position: absolute; */
+    width: 76px;
+    height: 76px;
+    border-radius: 5px;
+    background: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.example-modal-container::before{
+    content: '';
+    position:absolute;
+    width: 120px;
+    height: 120px;
+    background-image: conic-gradient(transparent,transparent,rgb(1, 214, 252),blue,rgb(255, 0, 242),pink);
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.example-modal-content{
+    position: absolute;
+    border-radius:5px;
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    background-color: #777777;
+    cursor: pointer;
+}
+
+.example-modal-guide{
+    text-align: center;
+    margin-left: auto;
+    margin-top: 6px;
+    color:#242424;
+}
